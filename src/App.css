@@ -1,0 +1,58 @@
+#titleHolder {
+  width: 60vw;
+  height: 75vh;
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#titleHead {
+  text-align: center;
+  font-weight: 300;
+  background: #2e3539;
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+#titleHolder button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  border: 0;
+  background: lightgray;
+}
+
+#titleHolder > button > svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.animateHeader1 {
+  animation: fadeEffect 2s;
+}
+
+.animateHeader2 {
+  animation: fadeEffect1 2s;
+}
+
+@keyframes fadeEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

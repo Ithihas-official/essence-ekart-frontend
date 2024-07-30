@@ -1,0 +1,14 @@
+:root {
+  font-size: 16px;
+  background: #171f23;
+  color: whitesmoke;
+  font-family: monospace;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 7px;
+  }
+}
